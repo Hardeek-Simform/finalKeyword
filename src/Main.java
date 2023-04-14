@@ -11,7 +11,7 @@ public class Main extends Sbi {
     public static void main(String[] args) {
         Sbi s = new Sbi();
 //        s.loanInterest = 3;       ERROR: Cannot assign a value to final variable 'loanInterest'
-        System.out.println("The loan interest rate is: "+ s.loanInterest);
+        System.out.println("The loan interest rate is: " + s.loanInterest);
         s.cardOffers();
     }
 }
